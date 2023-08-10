@@ -1,0 +1,99 @@
+
+/*Menu*/
+.header_mobil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 4vw;
+    width:92vw;
+}
+
+/*Banner*/
+.imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+/*Productos 1*/
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+.section_productos_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px;
+    align-items: baseline;
+}
+.producto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.producto_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    padding-bottom: 10px;
+}
+
+/*Registro*/
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+    /*Menu Mobil*/
+    .header_mobil{
+        padding: 0 0;
+        width: 0;
+    }
+    /*Menu PC*/
+    .header_pc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px 50px;
+    }
+    .header_buscar{
+        display: flex;
+    }
+    /*Registro*/
+    .registro{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /*Footer*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .list_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 13vw;
+    }
+}

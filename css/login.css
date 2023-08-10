@@ -1,0 +1,68 @@
+a:visited {
+    color: unset; /* Cambia #800080 al color que desees */
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    border-bottom: 1px solid grey;
+}
+.sesion_titulo{
+    font-size: 25px;
+    font-family: Raleway;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+.item_form{
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    padding: 10px 50px;
+}
+.input{
+    align-self: center;
+    width: 80vw;
+    font-size: 30px;
+    outline: 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+.input_btn{
+    margin-top: 20px;
+    align-self: center;
+    width: 250px;
+    font-size: 20px;
+    padding: 20px 0;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+
+@media (min-width: 1200px) {
+    .imagen_footer{
+        width: 200px;
+    }
+    .login{
+        padding: 5vw 0;
+    }
+    .item_form{
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 400;
+        padding: 10px 50px;
+        align-self: center;
+    }
+    .input{
+        align-self: center;
+        width: 30vw;
+        font-size: 20px;
+        outline: 0;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .input_btn{
+        width: 20vw;
+        padding: 20px 0;
+    }
+}

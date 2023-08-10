@@ -1,0 +1,45 @@
+.icon_head{
+    width: 180px;
+}
+.sectionAgregar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 20px 0 20px;
+}
+.agregar_btn{
+    font-family: Raleway;
+    font-size: 20px;
+}
+.img_agregar{
+    width: 35px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.producto_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    padding-bottom: 10px;
+}
+.item_productos{
+    width: 35px;
+    padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+    .main{
+        padding: 0;
+    }
+    .sectionAgregar{
+        padding: 30px 10vw;
+    }
+    .sections{
+        padding: 0px 10vw;
+    }
+
+}

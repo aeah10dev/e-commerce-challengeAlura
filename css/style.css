@@ -1,0 +1,246 @@
+ol,ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Menu Mobil*/
+.header_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_mobil{
+    border-bottom: 1px solid rgb(84, 84, 84);
+    background-color: white;
+    position: fixed;
+}
+.icons_header{
+    width: 30px;
+    padding: 0 1vw;
+}
+.header_logo{
+    position: fixed;
+    top: 39px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon_header{
+    width: 50px;
+}
+/*Menu PC*/
+.header_pc{
+    display: none;
+}
+
+/*Main*/
+.main{
+    padding-top: 75px;
+}
+
+/*Banner*/
+.imagen{
+    width: 100vw;
+    background-image: url("/assets/sport.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height:280px;
+}
+.imagen_titulo{
+    font-size: 40px;
+    color: white;
+    font-family: Raleway;
+    font-weight: 600;
+}
+.imagen_subtitulo{
+    font-size: 20px;
+    color: white;
+    font-family: Raleway;
+    font-weight: 400;
+}
+.imagen_btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    width: 120px;
+    margin: 7px 0 18px 15px;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 2px  rgba(255, 255, 255);
+}
+.imagen_item{
+    padding: 2px 15px;
+}
+
+/*Productos 1*/
+.sectionNombre{
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+.sectionEnlace{
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+.sectionArrow{
+    width: 18px;
+}
+.img_producto{
+    width: 170px;
+    height: 170px;
+}
+.productoNombre{
+    font-size: 18px;
+    font-family: Raleway;
+}
+.productoPrecio{
+    font-size: 17px;
+    font-family: 'Courier New';
+    font-weight: 800;
+}
+
+/*Registro*/
+.registro{
+    background-color: yellow;
+}
+.registro_titulo{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding-bottom: 5px;
+}
+.registro_btn{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255);
+}
+
+/*Footer*/
+.imagen_footer{
+    width: 200px;
+    padding: 10px 0;
+}
+.img_footer{
+    align-self: center;
+}
+.footer_item{
+    font-size: 19px;
+    font-family: Raleway;
+    font-weight: 100;
+    padding: 7px 0;
+    text-align: center;
+}
+.footers{
+    background-color: #000;
+}
+.footer_text{
+    font-family: Raleway;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+    /*Menu*/
+    .header_logo{
+        position: fixed;
+        top: 39px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .icon_header{
+        width: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*Menu mobil*/
+    .header_mobil{
+        border-bottom: none;
+        display: none;
+    }
+    .icons_header{
+        display: none;
+    }
+    .header_logo{
+        display: none;
+    }
+
+    /*Menu pc*/
+    .header_pc{
+        border-bottom: 1px solid grey;
+        background-color: white;
+    }
+    .icon_headerpc{
+        width: 150px;
+    }
+    .icons_headerpc{
+        width: 30px;
+        padding: 0 10px;
+    }
+    .header_buscar{
+        background-color: rgb(188, 188, 188, 0.6);
+        border-radius: 50px;
+        width: 400px;
+    }
+    .input_header{
+        border: none;
+        background-color: rgb(188, 188, 188, 0.1);
+        width: 350px;
+        border-radius: 50px;
+        font-family: 'Raleway', sans-serif;
+        outline: 0;
+        font-size: 18px;
+    }
+    .icons_header_buscar{
+        padding: 4px 8px 0 8px;
+        width: 27px;
+    }
+
+    /*Main*/
+    main{
+        padding-top: 80px;
+    }
+
+    /*Banner*/
+    .imagen{
+        width: auto;
+        height:300px;
+        padding: 0 0 0 0;
+    }
+    .imagen_item{
+        padding: 6px 15px;
+    }
+
+    /*Registro*/
+    .registro_titulo{
+        padding-right: 30px;
+    }
+
+    /*Footer*/
+    .footer_item{
+        font-size: 15px;
+    }
+    .footer_text{
+        font-size: 10px;
+    }
+    .imagen_footer{
+        width: 150px;
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "producto": [
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "/img/soccer1.jpg",
+      "price": "79.99",
+      "id": 33
+    },
+    {
+      "name": "Prueba Editado ",
+      "imageUrl": "/img/soccer2.jpg",
+      "price": "49.99",
+      "id": "8679197d-55e9-4577-be1e-81049c6b6e6f"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "/img/soccer3.jpg",
+      "price": "79.00",
+      "id": "cb8f8e4c-7340-4571-aa90-3b41607c2a58"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "/img/soccer4.jpg",
+      "price": "79.99",
+      "id": "d99e58e1-f939-424b-a852-60963932aad8"
+    }
+  ]
+}

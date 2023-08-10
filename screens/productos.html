@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/flexbox.css">
+    <link rel="stylesheet" href="/css/productos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>SportZone | Login </title>
+    <link rel="icon" type="image/png" href="/assets/icon_mobil.png">    
+</head>
+
+<header>
+    <div class="header_mobil">
+        <div>
+            <a href="/index.html"><img class="icon_head icons_header" src="/assets/icon_pc.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img class="icons_header" src="/assets/buscar.png" alt=""></a>
+            <a href="#"><img class="icons_header" src="/assets/usuario.png" alt=""></a>
+        </div>
+    </div>
+    <div class="header_pc">
+        <div class="header_logopc">
+            <a href="/index.html"><img class="icon_headerpc" src="/assets/icon_pc.png" alt=""></a>
+        </div>
+        <div class="header_buscar">
+            <a href="#"><img class="icons_header_buscar" src="/assets/buscar.png" alt=""></a>
+            <input class="input_header" type="text" placeholder="Buscar">
+        </div>
+        <div>
+            <a href="/login.html"><img class="icons_headerpc" src="/assets/usuario.png" alt=""></a>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <body>
+        <section>
+            <div class="sectionAgregar">
+                <h1 class="sectionNombre">Productos</h1>
+                <a href="/screens/add_products.html" class="agregar_btn"><img class="img_agregar" src="/assets/mas.png" alt=""></a></h2>
+            </div>
+        </section>
+        <section class="sections">
+            <div class="producto" data-products>
+                <!--Productos-->
+            </div>    
+        </section>
+        <footer>
+            <section class="footer">
+                <div class="img_footer">
+                    <a href=""><img class="imagen_footer" src="/assets/icon_pc.png" alt=""></a>
+                </div>
+                <div>
+                    <ul class="list_footer">
+                        <li class="footer_item">Acerca de sportZone</li>
+                        <li class="footer_item">Política de privacidad</li>
+                        <li class="footer_item">Terminos y condiciones</li>
+                        <li class="footer_item">Anunciate aquí</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footers">
+                <div class="footer__rodape">
+                    <p class="footer_text"><a class="parraf" id="miParraf">Coded</a> by: Augusto Alonso | 2023</p>
+                </div>
+            </section>
+        </footer>
+        <script type="module" src="/controllers/admProductos-controller.js"></script>
+    </body>
+</main>
+</html>

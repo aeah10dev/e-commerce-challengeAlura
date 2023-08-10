@@ -45,7 +45,7 @@ a{
 /*Banner*/
 .imagen{
     width: 100vw;
-    background-image: url("assets/sport.jpg");
+    background-image: url("../assets/sport.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height:280px;
